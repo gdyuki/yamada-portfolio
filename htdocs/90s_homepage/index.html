@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="common.js"></script>
+    <title>Yamada'S_homepage | home</title>
+  </head>
+  <body oncontextmenu="alert('右クリックは禁止ですっ！');return false">
+    <main>
+      <header>
+        <div class="header_title">
+          <img src="images/hometitle.png" alt="Welcome!">
+          <marquee><p><b><i>Welcome to my ホームページへ！　ここはゆうだいのホームページです</i></b></p></marquee>
+        </div>
+        <div class="head_counter">
+          <script>
+            num = Math.round(Math.random()*1000, 0);
+            document.write('<p style="color: red; font-size: 32px;">あなたは' + num + '番目の訪問者です</p>');
+          </script>
+          <p>キリ番の方は掲示板に書き込んでください！　素通り厳禁！</p>
+        </div>
+      </header>
+      <article class="moji">
+        <h3>利用上の注意！</h3>
+        <div class="tyuui">
+          <p>このホームページはゆうだいが作ったホームページです。キリ番の方は掲示板で報告してください。^^</p>
+          <p>直リンクは禁止です。相互リンクは相談ください。</p>
+          <p>ルールは守って仲良くいきましょう。^o^/</p>
+        </div>
+      </article>
+      <section class="enterUnit">
+        <p>以上が理解できた方はこちらから</p>
+        <a href="#" id="dummy_enter"><img src="./images/ENTER.png" alt="ENTER!!"></a>
+        <p id="hidden_ana">本当にしっかり読みましたか？</p>
+      </section>
+      <nav>
+        <label for="true_enter">ここはゆうだいのホームページです</label>
+        <input type="checkbox" id="true_enter">
+        <div class="navUnit">
+          <ul>
+            <h2>メニュー</h2>
+            <li><a href="#"><img src="images/about.png" alt="about"></a></li>
+            <li><a href="#"><img src="images/dayly.png" alt="nikki"><p class="min_p">new!</p></a></li>
+            <li><a href="#"><img src="images/create.png" alt="original"><p class="min_p">（工事中）</p></a></li>
+            <li><a href="#"><img src="images/img.png" alt="img"><p class="min_p">new!</p></a></li>
+            <li><a href="#"><img src="images/link.png" alt="link"><p class="min_p">new!</p></a></li>
+            <li><a href="#"><img src="images/BBS.png" alt="BBS"><p class="min_p">（工事中）</p></a></li>
+          </ul>
+        </div>
+      </nav>
+      <footer>
+        <div class="koukoku">
+          <img src="images/90's_banana.jpg" alt="koukoku">
+          <p class="min_p">この広告は3ヶ月以上更新がないため表示されています。</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

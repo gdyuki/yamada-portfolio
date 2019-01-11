@@ -1,0 +1,44 @@
+body{
+    background-color: #dcdcdc;
+    color: #2e2e2e;
+}
+h1{
+    font-size: 32px;
+    padding-top: 30px;
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+header{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}   
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    list-style-type : none;
+    width: 240px;
+    height: 240px;
+    margin: 30px;
+}
+li img{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
